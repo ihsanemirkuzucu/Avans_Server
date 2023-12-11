@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Validation\bin\Debug\net5.0\AvansProjeServer.Validation.deps.json
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Validation\bin\Debug\net5.0\AvansProjeServer.Validation.dll
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Validation\bin\Debug\net5.0\ref\AvansProjeServer.Validation.dll
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Validation\bin\Debug\net5.0\AvansProjeServer.Validation.pdb
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Validation\obj\Debug\net5.0\AvansProjeServer.Validation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Validation\obj\Debug\net5.0\AvansProjeServer.Validation.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Validation\obj\Debug\net5.0\AvansProjeServer.Validation.AssemblyInfo.cs
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Validation\obj\Debug\net5.0\AvansProjeServer.Validation.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Validation\obj\Debug\net5.0\AvansProjeServer.Validation.dll
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Validation\obj\Debug\net5.0\ref\AvansProjeServer.Validation.dll
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Validation\obj\Debug\net5.0\AvansProjeServer.Validation.pdb
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Validation\obj\Debug\net5.0\AvansProjeServer.Validation.csproj.AssemblyReference.cache

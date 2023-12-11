@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.ExceptionHandling\bin\Debug\net5.0\AvansProjeServer.ExceptionHandling.deps.json
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.ExceptionHandling\bin\Debug\net5.0\AvansProjeServer.ExceptionHandling.dll
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.ExceptionHandling\bin\Debug\net5.0\ref\AvansProjeServer.ExceptionHandling.dll
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.ExceptionHandling\bin\Debug\net5.0\AvansProjeServer.ExceptionHandling.pdb
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.ExceptionHandling\obj\Debug\net5.0\AvansProjeServer.ExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.ExceptionHandling\obj\Debug\net5.0\AvansProjeServer.ExceptionHandling.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.ExceptionHandling\obj\Debug\net5.0\AvansProjeServer.ExceptionHandling.AssemblyInfo.cs
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.ExceptionHandling\obj\Debug\net5.0\AvansProjeServer.ExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.ExceptionHandling\obj\Debug\net5.0\AvansProjeServer.ExceptionHandling.dll
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.ExceptionHandling\obj\Debug\net5.0\ref\AvansProjeServer.ExceptionHandling.dll
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.ExceptionHandling\obj\Debug\net5.0\AvansProjeServer.ExceptionHandling.pdb
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.ExceptionHandling\obj\Debug\net5.0\AvansProjeServer.ExceptionHandling.csproj.AssemblyReference.cache

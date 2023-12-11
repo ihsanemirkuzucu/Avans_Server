@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.BLL\bin\Debug\net5.0\AvansProjeServer.BLL.deps.json
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.BLL\bin\Debug\net5.0\AvansProjeServer.BLL.dll
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.BLL\bin\Debug\net5.0\ref\AvansProjeServer.BLL.dll
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.BLL\bin\Debug\net5.0\AvansProjeServer.BLL.pdb
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.BLL\obj\Debug\net5.0\AvansProjeServer.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.BLL\obj\Debug\net5.0\AvansProjeServer.BLL.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.BLL\obj\Debug\net5.0\AvansProjeServer.BLL.AssemblyInfo.cs
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.BLL\obj\Debug\net5.0\AvansProjeServer.BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.BLL\obj\Debug\net5.0\AvansProjeServer.BLL.dll
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.BLL\obj\Debug\net5.0\ref\AvansProjeServer.BLL.dll
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.BLL\obj\Debug\net5.0\AvansProjeServer.BLL.pdb
+C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.BLL\obj\Debug\net5.0\AvansProjeServer.BLL.csproj.AssemblyReference.cache
