@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Yeni klasör\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServer.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServer.DAL.csproj",
       "projectName": "AvansProjeServer.DAL",
-      "projectPath": "C:\\Users\\User\\Desktop\\Yeni klasör\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServer.DAL.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServer.DAL.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Yeni klasör\\AvansProjeServer\\AvansProjeServer.DAL\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

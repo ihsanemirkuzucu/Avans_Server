@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Yeni klasör\\AvansProjeServer\\AvansProjeServer.Log\\AvansProjeServer.Log.csproj": {}
+    "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Log\\AvansProjeServer.Log.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Yeni klasör\\AvansProjeServer\\AvansProjeServer.Log\\AvansProjeServer.Log.csproj": {
+    "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Log\\AvansProjeServer.Log.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Yeni klasör\\AvansProjeServer\\AvansProjeServer.Log\\AvansProjeServer.Log.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Log\\AvansProjeServer.Log.csproj",
         "projectName": "AvansProjeServer.Log",
-        "projectPath": "C:\\Users\\User\\Desktop\\Yeni klasör\\AvansProjeServer\\AvansProjeServer.Log\\AvansProjeServer.Log.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Log\\AvansProjeServer.Log.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Yeni klasör\\AvansProjeServer\\AvansProjeServer.Log\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Log\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

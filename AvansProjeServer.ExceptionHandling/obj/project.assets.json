@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Yeni klasör\\AvansProjeServer\\AvansProjeServer.ExceptionHandling\\AvansProjeServer.ExceptionHandling.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.ExceptionHandling\\AvansProjeServer.ExceptionHandling.csproj",
       "projectName": "AvansProjeServer.ExceptionHandling",
-      "projectPath": "C:\\Users\\User\\Desktop\\Yeni klasör\\AvansProjeServer\\AvansProjeServer.ExceptionHandling\\AvansProjeServer.ExceptionHandling.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.ExceptionHandling\\AvansProjeServer.ExceptionHandling.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Yeni klasör\\AvansProjeServer\\AvansProjeServer.ExceptionHandling\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.ExceptionHandling\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

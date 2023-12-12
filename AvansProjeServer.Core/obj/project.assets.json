@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Yeni klasör\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj",
       "projectName": "AvansProjeServer.Core",
-      "projectPath": "C:\\Users\\User\\Desktop\\Yeni klasör\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Yeni klasör\\AvansProjeServer\\AvansProjeServer.Core\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
