@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "orh9S9i18ps8fQldiY5yzMb/EQx5EE9kzq3vUVYYangiB934bV02sBnZp6HEiEPtWknawYnEal+QqFKyTQ6WvQ==",
+  "dgSpecHash": "U+BjlfcHjJmxYAw5VaAoD2Erd/oiFLXIFz0H3MAyTzRmkKPcWEJoB7aZKY38RN+KBvs9P2fACjZDzmEzsd9Ivw==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Validation\\AvansProjeServer.Validation.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
