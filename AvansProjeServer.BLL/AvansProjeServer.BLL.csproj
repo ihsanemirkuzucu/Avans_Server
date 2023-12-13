@@ -5,12 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\" />
-    <Folder Include="Abstract\" />
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="Dapper" Version="2.1.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <ProjectReference Include="..\AvansProjeServer.Core\AvansProjeServer.Core.csproj" />
+    <ProjectReference Include="..\AvansProjeServer.DAL\AvansProjeServer.DAL.csproj" />
+    <ProjectReference Include="..\AvansProjeServerDTO\AvansProjeServerDTO.csproj" />
   </ItemGroup>
 
 </Project>
