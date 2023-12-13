@@ -10,3 +10,15 @@ C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Core\obj\De
 C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Core\obj\Debug\net5.0\ref\AvansProjeServer.Core.dll
 C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Core\obj\Debug\net5.0\AvansProjeServer.Core.pdb
 C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServer.Core\obj\Debug\net5.0\AvansProjeServer.Core.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Core\bin\Debug\net5.0\AvansProjeServer.Core.deps.json
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Core\bin\Debug\net5.0\AvansProjeServer.Core.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Core\bin\Debug\net5.0\ref\AvansProjeServer.Core.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Core\bin\Debug\net5.0\AvansProjeServer.Core.pdb
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Core\obj\Debug\net5.0\AvansProjeServer.Core.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Core\obj\Debug\net5.0\AvansProjeServer.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Core\obj\Debug\net5.0\AvansProjeServer.Core.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Core\obj\Debug\net5.0\AvansProjeServer.Core.AssemblyInfo.cs
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Core\obj\Debug\net5.0\AvansProjeServer.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Core\obj\Debug\net5.0\AvansProjeServer.Core.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Core\obj\Debug\net5.0\ref\AvansProjeServer.Core.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Core\obj\Debug\net5.0\AvansProjeServer.Core.pdb

@@ -10,6 +10,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AvansProjeServer.BLL.Abstract.IWorker;
+using AvansProjeServer.BLL.Concrete.Worker;
+using AvansProjeServer.DAL.Abstract.IWorker;
+using AvansProjeServer.DAL.Concrete;
+using AvansProjeServer.DAL.Context;
 
 namespace AvansProjeServer.API
 {
@@ -25,7 +30,9 @@ namespace AvansProjeServer.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddScoped<MyConnectionContext>();
+            services.AddScoped<IWorkerDAL, WorkerDAL>();
+            services.AddScoped<IWorkerBLL, WorkerBLL>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
