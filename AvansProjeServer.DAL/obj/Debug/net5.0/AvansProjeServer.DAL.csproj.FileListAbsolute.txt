@@ -20,10 +20,11 @@ C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\ref
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\AvansProjeServer.DAL.pdb
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServer.DAL.deps.json
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServer.DAL.dll
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\ref\AvansProjeServer.DAL.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServer.DAL.pdb
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServer.Core.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServerDTO.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServer.Core.pdb
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServerDTO.pdb
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\AvansProjeServer.DAL.csproj.CopyComplete
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\AvansProjeServer.DAL.sourcelink.json
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\refint\AvansProjeServer.DAL.dll

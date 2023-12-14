@@ -32,7 +32,7 @@ namespace AvansProjeServer.BLL.Concrete.Worker
         {
             try
             {
-                if (id > 0)
+                if (id < 0)
                 {
                     throw new ArgumentException("Geçersiz ID");
                 }
@@ -58,7 +58,7 @@ namespace AvansProjeServer.BLL.Concrete.Worker
         {
             try
             {
-                if (id > 0)
+                if (id < 0)
                 {
                     throw new ArgumentException("Geçersiz ID");
                 }

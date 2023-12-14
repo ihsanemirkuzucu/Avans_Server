@@ -34,7 +34,6 @@ C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\Ava
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServer.API.runtimeconfig.json
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServer.API.runtimeconfig.dev.json
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServer.API.dll
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\ref\AvansProjeServer.API.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServer.API.pdb
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\Dapper.dll
@@ -80,7 +79,6 @@ C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\Ava
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\AvansProjeServer.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\AvansProjeServer.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\staticwebassets\AvansProjeServer.API.StaticWebAssets.Manifest.cache
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\staticwebassets\AvansProjeServer.API.StaticWebAssets.xml
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\scopedcss\bundle\AvansProjeServer.API.styles.css
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\AvansProjeServer.API.RazorTargetAssemblyInfo.cache
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\AvansProjeServer.API.csproj.CopyComplete
@@ -96,3 +94,10 @@ C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\Ava
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServer.DAL.pdb
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServer.Core.pdb
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServerDTO.pdb
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\AvansProjeServer.API.sourcelink.json
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\staticwebassets\AvansProjeServer.API.StaticWebAssets.Pack.cache
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\staticwebassets\msbuild.AvansProjeServer.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\staticwebassets\msbuild.build.AvansProjeServer.API.props
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.AvansProjeServer.API.props
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.AvansProjeServer.API.props
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\refint\AvansProjeServer.API.dll
