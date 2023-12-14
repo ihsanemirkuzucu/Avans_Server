@@ -13,7 +13,6 @@ C:\Users\User\Desktop\Yeni klasör\AvansProjeServer\AvansProjeServerDTO\obj\Debu
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\bin\Debug\net5.0\AvansProjeServerDTO.deps.json
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\bin\Debug\net5.0\AvansProjeServerDTO.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\bin\Debug\net5.0\AvansProjeServerDTO.pdb
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServerDTO.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServerDTO.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServerDTO.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServerDTO.AssemblyInfo.cs
@@ -21,5 +20,4 @@ C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\Avan
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServerDTO.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\ref\AvansProjeServerDTO.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServerDTO.pdb
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServerDTO.sourcelink.json
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\refint\AvansProjeServerDTO.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\bin\Debug\net5.0\ref\AvansProjeServerDTO.dll

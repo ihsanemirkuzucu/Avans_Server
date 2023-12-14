@@ -10,8 +10,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AvansProjeServer.BLL.Abstract.ITitle;
 using AvansProjeServer.BLL.Abstract.IWorker;
+using AvansProjeServer.BLL.Concrete.Title;
 using AvansProjeServer.BLL.Concrete.Worker;
+using AvansProjeServer.DAL.Abstract.ITitle;
 using AvansProjeServer.DAL.Abstract.IWorker;
 using AvansProjeServer.DAL.Concrete;
 using AvansProjeServer.DAL.Context;
@@ -31,8 +34,13 @@ namespace AvansProjeServer.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<MyConnectionContext>();
+
             services.AddScoped<IWorkerDAL, WorkerDAL>();
             services.AddScoped<IWorkerBLL, WorkerBLL>();
+
+            services.AddScoped<ITitleBLL, TitleBLL>();
+            services.AddScoped<ITitleDAL, TitleDAL>();
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

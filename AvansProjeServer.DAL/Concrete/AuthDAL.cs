@@ -23,9 +23,9 @@ namespace AvansProjeServer.DAL.Concrete
             _dbContext = dbContext;
         }
 
-        public async Task<LogInDTO> LogInAsync()
+        public async Task<RequiredDataDTO> GetRequiredDataAsync()
         {
-            var data = new LogInDTO();
+            var data = new RequiredDataDTO();
             var unit = "SELECT UnitID, UnitName FROM Unit";
             var title = "SELECT TitleID, TitleName FROM Title";
             var worker = "SELECT * FROM Worker";

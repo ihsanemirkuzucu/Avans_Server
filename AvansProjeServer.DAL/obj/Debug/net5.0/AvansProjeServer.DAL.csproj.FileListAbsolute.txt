@@ -26,5 +26,4 @@ C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\Ava
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServer.Core.pdb
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServerDTO.pdb
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\AvansProjeServer.DAL.csproj.CopyComplete
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\AvansProjeServer.DAL.sourcelink.json
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\refint\AvansProjeServer.DAL.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\ref\AvansProjeServer.DAL.dll

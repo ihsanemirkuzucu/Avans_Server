@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AvansProjeServer.Validation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c31c557faa9f6673970e90d2dbe114b126c4cb3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AvansProjeServer.Validation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AvansProjeServer.Validation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

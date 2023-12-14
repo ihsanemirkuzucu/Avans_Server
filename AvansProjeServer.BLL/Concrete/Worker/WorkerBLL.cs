@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AvansProjeServer.BLL.Abstract.IWorker;
+using AvansProjeServer.Core.GeneralReturn;
 using AvansProjeServer.Core.Mapper;
 using AvansProjeServer.DAL.Abstract.IWorker;
 using AvansProjeServerDTO.Models.WorkerDTOs;
@@ -23,29 +24,68 @@ namespace AvansProjeServer.BLL.Concrete.Worker
             _mapper = mapper;
         }
 
-        public Task<List<WorkerListDTO>> GetAllWorkersAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        public async Task<WorkerDTO> GetWorkerByIdAsync(int id)
+        public async Task<GeneralReturnType<List<WorkerListDTO>>> GetAllWorkersAsync()
         {
             try
             {
-                if (id < 0)
-                {
-                    throw new ArgumentException("Geçersiz ID");
-                }
-                var data = await _workerDAL.GetWorkerByIdAsync(id);
-                if (data == null)
-                {
-                    throw new InvalidOperationException("Bu Idde bir çalışan bulunamadı");
-                }
-                return _mapper.Map<WorkerDTO, Core.Entities.Worker>(data);
+                return new GeneralReturnType<List<WorkerListDTO>>(_mapper.Map<List<WorkerListDTO>, List<Core.Entities.Worker>>
+                    (await _workerDAL.GetAllWorkersAsync()), true, "Çalışanlar Getirildi");
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                return null;
+                return new GeneralReturnType<List<WorkerListDTO>>(null, true, "Çalışanlar Getirilemedi: " + ex.Message);
+            }
+        }
+
+        public async Task<GeneralReturnType<WorkerDTO>> GetWorkerByIdAsync(int id)
+        {
+            try
+            {
+                return new GeneralReturnType<WorkerDTO>(_mapper.Map<WorkerDTO, Core.Entities.Worker>
+                    (await _workerDAL.GetWorkerByIdAsync(id)), true, "Çalışan Getirildi");
+            }
+            catch (Exception ex)
+            {
+                return new GeneralReturnType<WorkerDTO>(null, true, "Çalışan Getirilemedi: " + ex.Message);
+            }
+           
+        }
+
+        public async Task<GeneralReturnType<WorkerDTO>> GetWorkerByMailAsync(string email)
+        {
+            try
+            {
+                return new GeneralReturnType<WorkerDTO>(_mapper.Map<WorkerDTO, Core.Entities.Worker>
+                    (await _workerDAL.GetWorkerByMailAsync(email)), true, "Çalışan Getirildi");
+            }
+            catch (Exception ex)
+            {
+                return new GeneralReturnType<WorkerDTO>(null, true, "Bu Maile sahip kullanıcı bulunamadı" + ex.Message);
+            }
+        }
+
+        public async Task<GeneralReturnType<WorkerRegisterDTO>> RegisterAsync(WorkerRegisterDTO workerRegisterDTO)
+        {
+            try
+            {
+                return new GeneralReturnType<WorkerRegisterDTO>(_mapper.Map<WorkerRegisterDTO, Core.Entities.Worker>(await _workerDAL.RegisterAsync(workerRegisterDTO)), true, "Kayıt İşlemi Başarılı");
+            }
+            catch (Exception ex)
+            {
+                return new GeneralReturnType<WorkerRegisterDTO>(null, true, "Kayıt İşlemi Başarısız: " + ex.Message);
+            }
+        }
+
+        public async Task<GeneralReturnType<WorkerLoginDTO>> LoginAsync(WorkerLoginDTO workerLoginDTO)
+        {
+            try
+            {
+                var data = _mapper.Map<WorkerLoginDTO, Core.Entities.Worker>(await _workerDAL.LoginAsync(workerLoginDTO));
+                return new GeneralReturnType<WorkerLoginDTO>(data, true, "Giriş başarılı");
+            }
+            catch (Exception ex)
+            {
+                return new GeneralReturnType<WorkerLoginDTO>(null, true, "Giriş başarısız: " + ex.Message);
             }
         }
 

@@ -9,7 +9,7 @@ using AvansProjeServerDTO.Models.WorkerDTOs;
 
 namespace AvansProjeServerDTO.Models.AuthDTOs
 {
-    public record LogInDTO
+    public record RequiredDataDTO
     {
         public List<UnitDTO> Unit { get; set; }
         public List<TitleDTO> Title { get; set; }

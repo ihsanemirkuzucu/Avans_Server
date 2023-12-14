@@ -9,6 +9,6 @@ namespace AvansProjeServer.DAL.Abstract.IAuth
 {
     public interface IAuthDAL
     {
-        Task<LogInDTO> LogInAsync();
+        Task<RequiredDataDTO> GetRequiredDataAsync();
     }
 }
