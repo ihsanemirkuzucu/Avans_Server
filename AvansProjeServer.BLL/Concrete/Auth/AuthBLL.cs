@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AvansProjeServer.BLL.Abstract.IAuth;
+using AvansProjeServer.Core.GeneralReturn;
 using AvansProjeServer.Core.Mapper;
 using AvansProjeServer.DAL.Abstract.IAuth;
 using AvansProjeServer.DAL.Abstract.IProject;
@@ -24,21 +25,15 @@ namespace AvansProjeServer.BLL.Concrete.Auth
             _mapper = mapper;
         }
 
-        public async Task<LogInDTO> LogInAsync()
+        public async Task<GeneralReturnType<RequiredDataDTO>> GetRequiredDataAsync()
         {
             try
             {
- 
-                LogInDTO data = await _authDAL.LogInAsync();
-                if (data == null)
-                {
-                    throw new InvalidOperationException("Giriş Yapılamadı");
-                }
-                return data;
+                return new GeneralReturnType<RequiredDataDTO>(await _authDAL.GetRequiredDataAsync(), true, "Datalar Alındı");
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                return null;
+                return new GeneralReturnType<RequiredDataDTO>(null, false, ex.Message);
             }
         }
     }

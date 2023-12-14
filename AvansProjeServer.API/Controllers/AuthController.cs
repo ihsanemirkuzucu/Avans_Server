@@ -16,14 +16,15 @@ namespace AvansProjeServer.API.Controllers
             _authBLL = authBll;
         }
 
-        public async Task<IActionResult> Login()
+        [HttpGet("~/api/requireddata")]
+        public async Task<IActionResult> RegisterScreenRequireds()
         {
-            LogInDTO result = await _authBLL.LogInAsync();
-            if (result != null)
+            var result = await _authBLL.GetRequiredDataAsync();
+            if (!result.Success)
             {
-                return Ok(result);
+                return null;
             }
-            return null;
+            return Ok(result.Data);
         }
     }
 }

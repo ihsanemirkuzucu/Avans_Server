@@ -28,5 +28,4 @@ C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.BLL\bin\Debug\net5.0\Ava
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.BLL\bin\Debug\net5.0\AvansProjeServer.DAL.pdb
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.BLL\bin\Debug\net5.0\AvansProjeServerDTO.pdb
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.BLL\obj\Debug\net5.0\AvansProjeServer.BLL.csproj.CopyComplete
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.BLL\obj\Debug\net5.0\AvansProjeServer.BLL.sourcelink.json
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.BLL\obj\Debug\net5.0\refint\AvansProjeServer.BLL.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.BLL\bin\Debug\net5.0\ref\AvansProjeServer.BLL.dll

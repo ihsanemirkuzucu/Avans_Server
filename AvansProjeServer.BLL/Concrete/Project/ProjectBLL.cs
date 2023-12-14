@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AvansProjeServer.BLL.Abstract.IProject;
+using AvansProjeServer.Core.GeneralReturn;
 using AvansProjeServer.Core.Mapper;
 using AvansProjeServer.DAL.Abstract.IProject;
 using AvansProjeServer.DAL.Abstract.IWorker;
@@ -23,42 +24,22 @@ namespace AvansProjeServer.BLL.Concrete.Project
             _mapper = mapper;
         }
 
-        public async Task<List<ProjectDTO>> GetAllProject()
+        public async Task<GeneralReturnType<List<ProjectDTO>>> GetAllProject()
         {
             try
             {
-                List<Core.Entities.Project> data = await _projectDAL.GetAllProjectAsync();
-                if (data == null)
-                {
-                    throw new InvalidOperationException("Projeler görüntülenemedi");
-                }
-                return _mapper.Map<List<ProjectDTO>, List<Core.Entities.Project>>(data);
+                return new GeneralReturnType<List<ProjectDTO>>(_mapper.Map<List<ProjectDTO>, List<Core.Entities.Project>>
+                    (await _projectDAL.GetAllProjectAsync()), true, "Projeler Getirildi");
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                return null;
+                return new GeneralReturnType<List<ProjectDTO>>(null, true, "Projeler Getirilemedi: " + ex.Message);
             }
         }
 
-        public async Task<ProjectDTO> GetProjectByID(int id)
+        public async Task<GeneralReturnType<ProjectDTO>> GetProjectByID(int id)
         {
-            try
-            {
-                if (id < 0)
-                {
-                    throw new ArgumentException("Geçersiz ID");
-                }
-                Core.Entities.Project data = await _projectDAL.GetProjectByIDAsync(id);
-                if (data == null)
-                {
-                    throw new InvalidOperationException("Bu Idde bir proje bulunamadı");
-                }
-                return _mapper.Map<ProjectDTO, Core.Entities.Project>(data);
-            }
-            catch (Exception e)
-            {
-                return null;
-            }
+            return new GeneralReturnType<ProjectDTO>(_mapper.Map<ProjectDTO, Core.Entities.Project>(await _projectDAL.GetProjectByIDAsync(id)), true, "Title Başarılya Alındı");
         }
     }
 }

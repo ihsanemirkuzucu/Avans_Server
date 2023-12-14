@@ -50,7 +50,6 @@ C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\Mic
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -94,10 +93,6 @@ C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\Ava
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServer.DAL.pdb
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServer.Core.pdb
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServerDTO.pdb
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\AvansProjeServer.API.sourcelink.json
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\staticwebassets\AvansProjeServer.API.StaticWebAssets.Pack.cache
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\staticwebassets\msbuild.AvansProjeServer.API.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\staticwebassets\msbuild.build.AvansProjeServer.API.props
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.AvansProjeServer.API.props
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.AvansProjeServer.API.props
-C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\refint\AvansProjeServer.API.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\ref\AvansProjeServer.API.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\staticwebassets\AvansProjeServer.API.StaticWebAssets.xml
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

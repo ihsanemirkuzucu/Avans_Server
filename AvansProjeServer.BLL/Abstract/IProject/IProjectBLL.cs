@@ -5,12 +5,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AvansProjeServer.Core.GeneralReturn;
 
 namespace AvansProjeServer.BLL.Abstract.IProject
 {
     public interface IProjectBLL
     {
-        Task<List<ProjectDTO>> GetAllProject();
-        Task<ProjectDTO> GetProjectByID(int id);
+        Task<GeneralReturnType<List<ProjectDTO>>> GetAllProject();
+        Task<GeneralReturnType<ProjectDTO>> GetProjectByID(int id);
     }
 }

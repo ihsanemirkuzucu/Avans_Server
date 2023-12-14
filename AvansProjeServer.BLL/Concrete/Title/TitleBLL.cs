@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AvansProjeServer.BLL.Abstract.ITitle;
+using AvansProjeServer.Core.GeneralReturn;
 using AvansProjeServer.Core.Mapper;
 using AvansProjeServer.DAL.Abstract.ITitle;
 using AvansProjeServer.DAL.Abstract.IWorker;
@@ -24,25 +25,9 @@ namespace AvansProjeServer.BLL.Concrete.Title
             _titleDAL = titleDal;
         }
 
-        public async Task<TitleDTO> GetTitleByID(int id)
+        public async Task<GeneralReturnType<TitleDTO>> GetTitleByID(int id)
         {
-            try
-            {
-                if (id < 0)
-                {
-                    throw new ArgumentException("Geçersiz ID");
-                }
-                Core.Entities.Title data = await _titleDAL.GetTitleByIDAsync(id);
-                if (data == null)
-                {
-                    throw new InvalidOperationException("Bu Idde bir title bulunamadı");
-                }
-                return _mapper.Map<TitleDTO, Core.Entities.Title>(data);
-            }
-            catch (Exception e)
-            {
-                return null;
-            }
+            return new GeneralReturnType<TitleDTO>(_mapper.Map<TitleDTO, Core.Entities.Title>(await _titleDAL.GetTitleByIDAsync(id)), true, "Title Başarılya Alındı");
         }
     }
 }
