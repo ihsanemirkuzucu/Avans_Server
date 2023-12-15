@@ -18,7 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AvansProjeServer.BLL\AvansProjeServer.BLL.csproj" />
-    <ProjectReference Include="..\AvansProjeServer.DAL\AvansProjeServer.DAL.csproj" />
+    <ProjectReference Include="..\AvansProjeServer.DAL\AvansProjeServerDAL.csproj" />
   </ItemGroup>
 
 </Project>

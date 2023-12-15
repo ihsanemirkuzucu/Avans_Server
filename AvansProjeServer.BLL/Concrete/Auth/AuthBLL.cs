@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using AvansProjeServer.BLL.Abstract.IAuth;
 using AvansProjeServer.Core.GeneralReturn;
-using AvansProjeServer.Core.Mapper;
+
 using AvansProjeServer.DAL.Abstract.IAuth;
 using AvansProjeServer.DAL.Abstract.IProject;
 using AvansProjeServer.DAL.Concrete;
+using AvansProjeServer.DTO.MyMapper;
 using AvansProjeServerDTO.Models.AuthDTOs;
 using AvansProjeServerDTO.Models.ProjectDTOs;
 

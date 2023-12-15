@@ -1496,6 +1496,21 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "AvansProjeServer.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AutoMapper": "10.0.0",
+          "Dapper": "2.1.24",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+        },
+        "compile": {
+          "bin/placeholder/AvansProjeServer.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AvansProjeServer.Core.dll": {}
+        }
       }
     }
   },
@@ -5764,11 +5779,17 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "AvansProjeServer.Core/1.0.0": {
+      "type": "project",
+      "path": "../AvansProjeServer.Core/AvansProjeServer.Core.csproj",
+      "msbuildProject": "../AvansProjeServer.Core/AvansProjeServer.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper >= 10.0.0",
+      "AvansProjeServer.Core >= 1.0.0",
       "Dapper >= 2.1.24",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17"
     ]
@@ -5805,7 +5826,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

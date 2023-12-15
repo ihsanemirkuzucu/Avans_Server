@@ -9,6 +9,7 @@
       "AvansProjeServerDTO/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.0.0",
+          "AvansProjeServer.Core": "1.0.0",
           "Dapper": "2.1.24",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
@@ -1052,6 +1053,16 @@
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
         }
+      },
+      "AvansProjeServer.Core/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.0.0",
+          "Dapper": "2.1.24",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+        },
+        "runtime": {
+          "AvansProjeServer.Core.dll": {}
+        }
       }
     }
   },
@@ -1732,6 +1743,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "AvansProjeServer.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

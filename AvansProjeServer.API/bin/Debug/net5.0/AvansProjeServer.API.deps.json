@@ -35,7 +35,7 @@
         "dependencies": {
           "AutoMapper": "10.0.0",
           "AvansProjeServer.BLL": "1.0.0",
-          "AvansProjeServer.DAL": "1.0.0",
+          "AvansProjeServerDAL": "1.0.0",
           "Dapper": "2.1.24",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
@@ -1288,7 +1288,7 @@
         "dependencies": {
           "AutoMapper": "10.0.0",
           "AvansProjeServer.Core": "1.0.0",
-          "AvansProjeServer.DAL": "1.0.0",
+          "AvansProjeServerDAL": "1.0.0",
           "AvansProjeServerDTO": "1.0.0",
           "Dapper": "2.1.24",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
@@ -1313,7 +1313,7 @@
           "AvansProjeServer.Core.dll": {}
         }
       },
-      "AvansProjeServer.DAL/1.0.0": {
+      "AvansProjeServerDAL/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.0.0",
           "AvansProjeServer.Core": "1.0.0",
@@ -1322,15 +1322,16 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
         "runtime": {
-          "AvansProjeServer.DAL.dll": {}
+          "AvansProjeServerDAL.dll": {}
         },
         "compile": {
-          "AvansProjeServer.DAL.dll": {}
+          "AvansProjeServerDAL.dll": {}
         }
       },
       "AvansProjeServerDTO/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.0.0",
+          "AvansProjeServer.Core": "1.0.0",
           "Dapper": "2.1.24",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
@@ -3731,7 +3732,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AvansProjeServer.DAL/1.0.0": {
+    "AvansProjeServerDAL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

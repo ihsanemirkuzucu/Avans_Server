@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServer.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServer.DTO.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServer.DTO.AssemblyInfo.cs
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServer.DTO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\bin\Debug\net5.0\AvansProjeServer.DTO.deps.json
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\bin\Debug\net5.0\AvansProjeServer.DTO.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\bin\Debug\net5.0\ref\AvansProjeServer.DTO.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\bin\Debug\net5.0\AvansProjeServer.DTO.pdb
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\bin\Debug\net5.0\AvansProjeServer.Core.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\bin\Debug\net5.0\AvansProjeServer.Core.pdb
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServer.DTO.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServer.DTO.csproj.CopyComplete
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServer.DTO.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\ref\AvansProjeServer.DTO.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServerDTO\obj\Debug\net5.0\AvansProjeServer.DTO.pdb

@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using AvansProjeServer.BLL.Abstract.IProject;
 using AvansProjeServer.Core.GeneralReturn;
-using AvansProjeServer.Core.Mapper;
 using AvansProjeServer.DAL.Abstract.IProject;
 using AvansProjeServer.DAL.Abstract.IWorker;
+using AvansProjeServer.DTO.MyMapper;
 using AvansProjeServerDTO.Models.ProjectDTOs;
 using AvansProjeServerDTO.Models.WorkerDTOs;
 

@@ -5,8 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using AvansProjeServer.BLL.Abstract.IWorker;
 using AvansProjeServer.Core.GeneralReturn;
-using AvansProjeServer.Core.Mapper;
+
 using AvansProjeServer.DAL.Abstract.IWorker;
+using AvansProjeServer.DTO.MyMapper;
 using AvansProjeServerDTO.Models.WorkerDTOs;
 
 
@@ -43,6 +44,7 @@ namespace AvansProjeServer.BLL.Concrete.Worker
             {
                 return new GeneralReturnType<WorkerDTO>(_mapper.Map<WorkerDTO, Core.Entities.Worker>
                     (await _workerDAL.GetWorkerByIdAsync(id)), true, "Çalışan Getirildi");
+                //var worker = new GeneralReturnType<WorkerDTO>(_mapper.Map < await _workerDAL.GetWorkerByIdAsync(id), worker, typeof(WorkerDTO), typeof(Core.Entities.Worker))>true, "Çalışan Getirildi");
             }
             catch (Exception ex)
             {

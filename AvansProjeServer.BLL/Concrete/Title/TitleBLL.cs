@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using AvansProjeServer.BLL.Abstract.ITitle;
 using AvansProjeServer.Core.GeneralReturn;
-using AvansProjeServer.Core.Mapper;
 using AvansProjeServer.DAL.Abstract.ITitle;
 using AvansProjeServer.DAL.Abstract.IWorker;
 using AvansProjeServer.DAL.Concrete;
+using AvansProjeServer.DTO.MyMapper;
 using AvansProjeServerDTO.Models.TitleDTOs;
 using AvansProjeServerDTO.Models.WorkerDTOs;
 

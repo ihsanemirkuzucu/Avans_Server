@@ -1512,7 +1512,7 @@
           "bin/placeholder/AvansProjeServer.Core.dll": {}
         }
       },
-      "AvansProjeServer.DAL/1.0.0": {
+      "AvansProjeServerDAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -1523,10 +1523,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
         "compile": {
-          "bin/placeholder/AvansProjeServer.DAL.dll": {}
+          "bin/placeholder/AvansProjeServerDAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AvansProjeServer.DAL.dll": {}
+          "bin/placeholder/AvansProjeServerDAL.dll": {}
         }
       },
       "AvansProjeServerDTO/1.0.0": {
@@ -1534,6 +1534,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "AutoMapper": "10.0.0",
+          "AvansProjeServer.Core": "1.0.0",
           "Dapper": "2.1.24",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
@@ -5817,10 +5818,10 @@
       "path": "../AvansProjeServer.Core/AvansProjeServer.Core.csproj",
       "msbuildProject": "../AvansProjeServer.Core/AvansProjeServer.Core.csproj"
     },
-    "AvansProjeServer.DAL/1.0.0": {
+    "AvansProjeServerDAL/1.0.0": {
       "type": "project",
-      "path": "../AvansProjeServer.DAL/AvansProjeServer.DAL.csproj",
-      "msbuildProject": "../AvansProjeServer.DAL/AvansProjeServer.DAL.csproj"
+      "path": "../AvansProjeServer.DAL/AvansProjeServerDAL.csproj",
+      "msbuildProject": "../AvansProjeServer.DAL/AvansProjeServerDAL.csproj"
     },
     "AvansProjeServerDTO/1.0.0": {
       "type": "project",
@@ -5832,7 +5833,7 @@
     "net5.0": [
       "AutoMapper >= 10.0.0",
       "AvansProjeServer.Core >= 1.0.0",
-      "AvansProjeServer.DAL >= 1.0.0",
+      "AvansProjeServerDAL >= 1.0.0",
       "AvansProjeServerDTO >= 1.0.0",
       "Dapper >= 2.1.24",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17"
@@ -5874,8 +5875,8 @@
             "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj": {
               "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj"
             },
-            "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServer.DAL.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServer.DAL.csproj"
+            "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServerDAL.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServerDAL.csproj"
             },
             "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\AvansProjeServerDTO.csproj": {
               "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\AvansProjeServerDTO.csproj"

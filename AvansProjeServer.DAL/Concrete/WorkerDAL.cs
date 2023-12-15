@@ -25,25 +25,24 @@ namespace AvansProjeServer.DAL.Concrete
 
         public async Task<List<Worker>> GetAllWorkersAsync()
         {
-            string query = @"SELECT W.WorkerID,W.WorkerName,W.WorkerEmail, W.WorkerPhonenumber, T.TitleID,T.TitleName, U.UnitID,U.UnitName, W.UpperWorkerID, W.PasswordSalt, W.PasswordHash
+            string query = @"SELECT W.WorkerID,W.WorkerName,W.WorkerEmail, W.WorkerPhonenumber, W.UpperWorkerID, W.PasswordSalt, W.PasswordHash, T.TitleID, T.TitleName, U.UnitID, U.UnitName 
                     FROM Worker W
                     INNER JOIN Title T ON W.TitleID=T.TitleID
                     INNER JOIN Unit U ON W.UnitID=U.UnitID";
             using IDbConnection connection = _dbContext.CreateConnection();
-            IEnumerable<Worker> datas = await connection.QueryAsync<Worker, Unit, Title, Worker>(query, (worker, unit, title) =>
+            var datas = await connection.QueryAsync<Worker, Unit, Title, Worker>(query, (worker, unit, title) =>
                 {
                     worker.Unit = unit;
                     worker.Title = title;
                     return worker;
                 },
-                splitOn: "UnitID, TitleID");
+                splitOn: "TitleID, UnitID");
             return datas.ToList();
         }
 
         public async Task<Worker> GetWorkerByIdAsync(int id)
         {
-            string query = @"SELECT W.WorkerID,W.WorkerName,W.WorkerEmail, W.WorkerPhonenumber, T.TitleID,T.TitleName, U.UnitID,U.UnitName, 
-                            W.UpperWorkerID, W.PasswordSalt, W.PasswordHash
+            string query = @"SELECT W.WorkerID,W.WorkerName,W.WorkerEmail, W.WorkerPhonenumber, W.UpperWorkerID, W.PasswordSalt, W.PasswordHash, U.UnitID,U.UnitName, T.TitleID,T.TitleName                             
                             FROM Worker W
                             INNER JOIN Title T ON W.TitleID=T.TitleID
                             INNER JOIN Unit U ON W.UnitID=U.UnitID
@@ -53,13 +52,16 @@ namespace AvansProjeServer.DAL.Concrete
             parameters.Add("WORKERID", id, DbType.Int16);
             IEnumerable<Worker> datas = await connection.QueryAsync<Worker, Unit, Title, Worker>(query, (worker, unit, title) =>
                {
+                   worker.UnitID = unit.UnitID;
+                   worker.TitleID = title.TitleID;
                    worker.Unit = unit;
                    worker.Title = title;
                    return worker;
                },
                splitOn: "UnitID, TitleID",
                param: parameters);
-            return datas.FirstOrDefault();
+            var dd = datas.SingleOrDefault(x => x.WorkerID == id);
+            return dd;
 
         }
 

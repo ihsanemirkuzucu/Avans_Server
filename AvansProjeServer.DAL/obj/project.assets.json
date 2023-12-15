@@ -1517,6 +1517,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "AutoMapper": "10.0.0",
+          "AvansProjeServer.Core": "1.0.0",
           "Dapper": "2.1.24",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
@@ -5822,9 +5823,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServer.DAL.csproj",
-      "projectName": "AvansProjeServer.DAL",
-      "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServer.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServerDAL.csproj",
+      "projectName": "AvansProjeServerDAL",
+      "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServerDAL.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\obj\\",
       "projectStyle": "PackageReference",

@@ -4,21 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
+using AvansProjeServer.Core.Entities;
+using AvansProjeServerDTO.Models.WorkerDTOs;
 
-namespace AvansProjeServer.Core.Mapper
+namespace AvansProjeServer.DTO.MyMapper
 {
     public class MyMapper : Profile
     {
         MapperConfiguration MapperConfig;
 
-        public MyMapper(MapperConfiguration mapperConfig)
+        public MyMapper()
         {
+            CreateMap<WorkerDTO, Worker>().ReverseMap();
+
             MapperConfig = new MapperConfiguration(config => { config.AddProfile(this); });
+           
         }
 
+
         public TCikis Map<TCikis, TGiris>(TGiris giris)
-                where TGiris : class, new()
-                where TCikis : class, new()
+            where TGiris : class, new()
+            where TCikis : class, new()
         {
             IMapper mapper = MapperConfig.CreateMapper();
 
@@ -26,7 +32,7 @@ namespace AvansProjeServer.Core.Mapper
             {
                 return mapper.Map<TCikis>(giris);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return null;
             }
@@ -34,4 +40,3 @@ namespace AvansProjeServer.Core.Mapper
         }
     }
 }
-
