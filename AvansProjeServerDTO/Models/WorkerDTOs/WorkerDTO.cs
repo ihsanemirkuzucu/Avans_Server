@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AvansProjeServer.Core.Entities;
 
 namespace AvansProjeServerDTO.Models.WorkerDTOs
 {
@@ -21,11 +22,16 @@ namespace AvansProjeServerDTO.Models.WorkerDTOs
         public int? TitleID { get; set; }
 
         public int? UpperWorkerID { get; set; }
-        //public virtual Title Title { get; set; }
 
-        //public virtual Unit Unit { get; set; }
+        public byte[] PasswordSalt { get; set; }
 
-        //public virtual Worker Worker2 { get; set; }
+        public byte[] PasswordHash { get; set; }
+
+        public Title Title { get; set; }
+
+        public Unit Unit { get; set; }
+
+        public Worker Worker2 { get; set; }
 
     }
 }

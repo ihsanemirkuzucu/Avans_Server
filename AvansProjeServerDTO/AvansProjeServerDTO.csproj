@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -8,6 +8,10 @@
     <PackageReference Include="AutoMapper" Version="10.0.0" />
     <PackageReference Include="Dapper" Version="2.1.24" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AvansProjeServer.Core\AvansProjeServer.Core.csproj" />
   </ItemGroup>
 
 </Project>

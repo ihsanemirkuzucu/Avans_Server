@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AvansProjeServer.Core\AvansProjeServer.Core.csproj" />
-    <ProjectReference Include="..\AvansProjeServer.DAL\AvansProjeServer.DAL.csproj" />
+    <ProjectReference Include="..\AvansProjeServer.DAL\AvansProjeServerDAL.csproj" />
     <ProjectReference Include="..\AvansProjeServerDTO\AvansProjeServerDTO.csproj" />
   </ItemGroup>
 

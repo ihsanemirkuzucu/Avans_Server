@@ -109,8 +109,8 @@
               "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj": {
                 "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj"
               },
-              "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\AvansProjeServerDTO.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\AvansProjeServerDTO.csproj"
+              "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\AvansProjeServer.DTO.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\AvansProjeServer.DTO.csproj"
               }
             }
           }
@@ -157,12 +157,12 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\AvansProjeServerDTO.csproj": {
+    "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\AvansProjeServer.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\AvansProjeServerDTO.csproj",
-        "projectName": "AvansProjeServerDTO",
-        "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\AvansProjeServerDTO.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\AvansProjeServer.DTO.csproj",
+        "projectName": "AvansProjeServer.DTO",
+        "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\AvansProjeServer.DTO.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\obj\\",
         "projectStyle": "PackageReference",
@@ -185,7 +185,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

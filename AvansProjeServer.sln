@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34301.259
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvansProjeServer.API", "AvansProjeServer.API\AvansProjeServer.API.csproj", "{5E7C7CA8-3FAB-4A9E-8BA8-604A45575B29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvansProjeServer.API", "AvansProjeServer.API\AvansProjeServer.API.csproj", "{5E7C7CA8-3FAB-4A9E-8BA8-604A45575B29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvansProjeServer.Core", "AvansProjeServer.Core\AvansProjeServer.Core.csproj", "{49FCA999-63DD-4710-BE27-039FF2379641}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvansProjeServer.Core", "AvansProjeServer.Core\AvansProjeServer.Core.csproj", "{49FCA999-63DD-4710-BE27-039FF2379641}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvansProjeServer.BLL", "AvansProjeServer.BLL\AvansProjeServer.BLL.csproj", "{199FB194-C501-4B95-9DE5-0CDF8687F858}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvansProjeServer.BLL", "AvansProjeServer.BLL\AvansProjeServer.BLL.csproj", "{199FB194-C501-4B95-9DE5-0CDF8687F858}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvansProjeServer.DAL", "AvansProjeServer.DAL\AvansProjeServer.DAL.csproj", "{321DF5BB-DD15-4514-866A-5BF7A4498819}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvansProjeServerDAL", "AvansProjeServer.DAL\AvansProjeServerDAL.csproj", "{321DF5BB-DD15-4514-866A-5BF7A4498819}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvansProjeServerDTO", "AvansProjeServerDTO\AvansProjeServerDTO.csproj", "{E1AA8E3B-CAF2-44EF-95C8-817635EDDB0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvansProjeServerDTO", "AvansProjeServerDTO\AvansProjeServerDTO.csproj", "{E1AA8E3B-CAF2-44EF-95C8-817635EDDB0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvansProjeServer.ExceptionHandling", "AvansProjeServer.ExceptionHandling\AvansProjeServer.ExceptionHandling.csproj", "{9E3B2A84-A07F-4331-8F67-052E14893B22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvansProjeServer.ExceptionHandling", "AvansProjeServer.ExceptionHandling\AvansProjeServer.ExceptionHandling.csproj", "{9E3B2A84-A07F-4331-8F67-052E14893B22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvansProjeServer.Log", "AvansProjeServer.Log\AvansProjeServer.Log.csproj", "{937AE2CF-6E23-4A17-BD8A-0008F3BF388E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvansProjeServer.Log", "AvansProjeServer.Log\AvansProjeServer.Log.csproj", "{937AE2CF-6E23-4A17-BD8A-0008F3BF388E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvansProjeServer.Validation", "AvansProjeServer.Validation\AvansProjeServer.Validation.csproj", "{9F4D5878-1FB5-45A9-B14E-AD2F569B4657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvansProjeServer.Validation", "AvansProjeServer.Validation\AvansProjeServer.Validation.csproj", "{9F4D5878-1FB5-45A9-B14E-AD2F569B4657}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

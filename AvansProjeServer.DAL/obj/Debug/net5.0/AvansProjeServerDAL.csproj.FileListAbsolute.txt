@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServerDAL.deps.json
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServerDAL.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\ref\AvansProjeServerDAL.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServerDAL.pdb
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServer.Core.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServerDTO.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServer.Core.pdb
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\bin\Debug\net5.0\AvansProjeServerDTO.pdb
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\AvansProjeServerDAL.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\AvansProjeServerDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\AvansProjeServerDAL.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\AvansProjeServerDAL.AssemblyInfo.cs
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\AvansProjeServerDAL.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\AvansProjeServerDAL.csproj.CopyComplete
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\AvansProjeServerDAL.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\ref\AvansProjeServerDAL.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.DAL\obj\Debug\net5.0\AvansProjeServerDAL.pdb

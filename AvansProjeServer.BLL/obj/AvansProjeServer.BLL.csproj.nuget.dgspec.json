@@ -36,8 +36,8 @@
               "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj": {
                 "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj"
               },
-              "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServer.DAL.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServer.DAL.csproj"
+              "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServerDAL.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServerDAL.csproj"
               },
               "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\AvansProjeServerDTO.csproj": {
                 "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServerDTO\\AvansProjeServerDTO.csproj"
@@ -160,12 +160,12 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServer.DAL.csproj": {
+    "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServerDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServer.DAL.csproj",
-        "projectName": "AvansProjeServer.DAL",
-        "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServer.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServerDAL.csproj",
+        "projectName": "AvansProjeServerDAL",
+        "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\AvansProjeServerDAL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.DAL\\obj\\",
         "projectStyle": "PackageReference",
@@ -268,7 +268,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\AvansProjeServer\\AvansProjeServer.Core\\AvansProjeServer.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
