@@ -11,6 +11,7 @@ namespace AvansProjeServer.BLL.Abstract.ITitle
 {
     public interface ITitleBLL
     {
-        Task<GeneralReturnType<TitleDTO>> GetTitleByID(int id);
+        Task<GeneralReturnType<List<TitleDTO>>> GetAllTitleAsync();
+        Task<GeneralReturnType<TitleDTO>> GetTitleByIDAsync(int id);
     }
 }

@@ -13,15 +13,18 @@ using System.Threading.Tasks;
 using AvansProjeServer.BLL.Abstract.IAuth;
 using AvansProjeServer.BLL.Abstract.IProject;
 using AvansProjeServer.BLL.Abstract.ITitle;
+using AvansProjeServer.BLL.Abstract.IUnit;
 using AvansProjeServer.BLL.Abstract.IWorker;
 using AvansProjeServer.BLL.Concrete.Auth;
 using AvansProjeServer.BLL.Concrete.Project;
 using AvansProjeServer.BLL.Concrete.Title;
+using AvansProjeServer.BLL.Concrete.Unit;
 using AvansProjeServer.BLL.Concrete.Worker;
 
 using AvansProjeServer.DAL.Abstract.IAuth;
 using AvansProjeServer.DAL.Abstract.IProject;
 using AvansProjeServer.DAL.Abstract.ITitle;
+using AvansProjeServer.DAL.Abstract.IUnit;
 using AvansProjeServer.DAL.Abstract.IWorker;
 using AvansProjeServer.DAL.Concrete;
 using AvansProjeServer.DAL.Context;
@@ -44,11 +47,17 @@ namespace AvansProjeServer.API
             services.AddScoped<MyConnectionContext>();
             services.AddScoped<MyMapper>();
 
+            services.AddScoped<IAuthBLL, AuthBLL>();
+            services.AddScoped<IAuthDAL, AuthDAL>();
+
             services.AddScoped<IWorkerDAL, WorkerDAL>();
             services.AddScoped<IWorkerBLL, WorkerBLL>();
 
             services.AddScoped<ITitleBLL, TitleBLL>();
             services.AddScoped<ITitleDAL, TitleDAL>();
+
+            services.AddScoped<IUnitBLL, UnitBLL>();
+            services.AddScoped<IUnitDAL, UnitDAL>();
 
             services.AddScoped<IAuthBLL, AuthBLL>();
             services.AddScoped<IAuthDAL, AuthDAL>();

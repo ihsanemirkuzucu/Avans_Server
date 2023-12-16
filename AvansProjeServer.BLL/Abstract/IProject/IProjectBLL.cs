@@ -11,7 +11,7 @@ namespace AvansProjeServer.BLL.Abstract.IProject
 {
     public interface IProjectBLL
     {
-        Task<GeneralReturnType<List<ProjectDTO>>> GetAllProject();
-        Task<GeneralReturnType<ProjectDTO>> GetProjectByID(int id);
+        Task<GeneralReturnType<List<ProjectDTO>>> GetAllProjectAsync();
+        Task<GeneralReturnType<ProjectDTO>> GetProjectByIDAsync(int id);
     }
 }

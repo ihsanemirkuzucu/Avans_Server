@@ -25,7 +25,20 @@ namespace AvansProjeServer.BLL.Concrete.Title
             _titleDAL = titleDal;
         }
 
-        public async Task<GeneralReturnType<TitleDTO>> GetTitleByID(int id)
+        public async Task<GeneralReturnType<List<TitleDTO>>> GetAllTitleAsync()
+        {
+            try
+            {
+                return new GeneralReturnType<List<TitleDTO>>(_mapper.Map<List<TitleDTO>, List<Core.Entities.Title>>
+                    (await _titleDAL.GetAllTitleAsync()), true, "Titlelar Getirildi");
+            }
+            catch (Exception ex)
+            {
+                return new GeneralReturnType<List<TitleDTO>>(null, true, "Titlelar Getirilemedi: " + ex.Message);
+            }
+        }
+
+        public async Task<GeneralReturnType<TitleDTO>> GetTitleByIDAsync(int id)
         {
             return new GeneralReturnType<TitleDTO>(_mapper.Map<TitleDTO, Core.Entities.Title>(await _titleDAL.GetTitleByIDAsync(id)), true, "Title Başarılya Alındı");
         }

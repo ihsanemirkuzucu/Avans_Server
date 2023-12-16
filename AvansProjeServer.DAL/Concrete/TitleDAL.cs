@@ -20,6 +20,14 @@ namespace AvansProjeServer.DAL.Concrete
             _dbContext = dbContext;
         }
 
+        public async Task<List<Title>> GetAllTitleAsync()
+        {
+            string query = "SELECT TitleID, TitleName FROM Title";
+            using IDbConnection connection = _dbContext.CreateConnection();
+            IEnumerable<Title> data = await connection.QueryAsync<Title>(query);
+            return data.ToList();
+        }
+
         public async Task<Title> GetTitleByIDAsync(int id)
         {
             string query = "SELECT TitleID, TitleName FROM Title WHERE TitleID=@TITLEID";

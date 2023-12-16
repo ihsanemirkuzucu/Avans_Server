@@ -9,6 +9,7 @@ namespace AvansProjeServer.DAL.Abstract.IUnit
 {
     public interface IUnitDAL
     {
+        Task<List<Unit>> GetAllUnitAsync();
         Task<Unit> GetUnitByIDAsync(int id);
     }
 }
