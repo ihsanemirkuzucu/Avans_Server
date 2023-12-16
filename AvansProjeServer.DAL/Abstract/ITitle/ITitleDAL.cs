@@ -9,6 +9,7 @@ namespace AvansProjeServer.DAL.Abstract.ITitle
 {
     public interface ITitleDAL
     {
+        Task<List<Title>> GetAllTitleAsync();
         Task<Title> GetTitleByIDAsync(int id);
     }
 }
