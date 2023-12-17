@@ -15,6 +15,5 @@ namespace AvansProjeServer.Core.Entities
         public decimal? MaxAmount { get; set; }
 
         public DateTime? Date { get; set; }
-
     }
 }

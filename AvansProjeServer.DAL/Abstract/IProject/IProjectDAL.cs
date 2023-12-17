@@ -11,5 +11,6 @@ namespace AvansProjeServer.DAL.Abstract.IProject
     {
         Task<List<Project>> GetAllProjectAsync();
         Task<Project> GetProjectByIDAsync(int id);
+        Task<List<Project>> GetAllProjectsByWorkerIDAsync(int id);
     }
 }
