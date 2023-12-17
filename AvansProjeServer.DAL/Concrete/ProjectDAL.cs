@@ -35,5 +35,20 @@ namespace AvansProjeServer.DAL.Concrete
             IDbConnection conn = _dbContext.CreateConnection();
             return await conn.QueryFirstOrDefaultAsync(query, new { PROJECTID = id });
         }
+
+        public async Task<List<Project>> GetAllProjectsByWorkerIDAsync(int id)
+        {
+            string query = @"SELECT P.ProjectID, P.ProjectName, P.StartDate, P.EndDate, P.ProjectExplanation 
+                                FROM Project P 
+                                LEFT JOIN ProjectWorker PW ON PW.ProjectID = P.ProjectID 
+                                LEFT JOIN Worker W ON W.WorkerID = PW.WorkerID 
+                                WHERE W.WorkerID = @WORKERID";
+            IDbConnection conn = _dbContext.CreateConnection();
+            var data = await conn.QueryAsync<Project>(query, new
+            {
+                WorkerID = id
+            });
+            return data.ToList();
+        }
     }
 }

@@ -63,6 +63,17 @@ namespace AvansProjeServer.API.Controllers
             return await _projectBLL.GetAllProjectAsync();
         }
 
+        [HttpGet("~/api/allprojectbyworkerid/{id}")]
+        public async Task<IActionResult> GetAllProjects(int id)
+        {
+            var result = await _projectBLL.GetAllProjectsByWorkerIDAsync(id);
+            if (!result.Success)
+            {
+                return null;
+            }
+            return Ok(result.Data);
+        }
+
 
         [HttpGet("~/api/allworkers/{id}")]
         public async Task<GeneralReturnType<WorkerDTO>> WorkersById(int id)

@@ -25,11 +25,5 @@ namespace AvansProjeServer.Core.Entities
         public bool? isApproved { get; set; }
 
         public int? ProjectID { get; set; }
-
-        public virtual Project Project { get; set; }
-
-        public virtual TitleAmountApprovalRule TitleAmountApprovalRule { get; set; }
-
-        public virtual Worker Worker { get; set; }
     }
 }

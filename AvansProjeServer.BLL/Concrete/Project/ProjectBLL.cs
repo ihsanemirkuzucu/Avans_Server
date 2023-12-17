@@ -39,7 +39,19 @@ namespace AvansProjeServer.BLL.Concrete.Project
 
         public async Task<GeneralReturnType<ProjectDTO>> GetProjectByIDAsync(int id)
         {
-            return new GeneralReturnType<ProjectDTO>(_mapper.Map<ProjectDTO, Core.Entities.Project>(await _projectDAL.GetProjectByIDAsync(id)), true, "Title Başarılya Alındı");
+            return new GeneralReturnType<ProjectDTO>(_mapper.Map<ProjectDTO, Core.Entities.Project>(await _projectDAL.GetProjectByIDAsync(id)), true, "Projeler Başarılya Getirildi");
+        }
+
+        public async Task<GeneralReturnType<List<ProjectDTO>>> GetAllProjectsByWorkerIDAsync(int id)
+        {
+            try
+            {
+                return new GeneralReturnType<List<ProjectDTO>>(_mapper.Map<List<ProjectDTO>, List<Core.Entities.Project>>(await _projectDAL.GetAllProjectsByWorkerIDAsync(id)), true, "Başarılı");
+            }
+            catch (Exception ex)
+            {
+                return new GeneralReturnType<List<ProjectDTO>>(null, false, "Başarısız " + ex.Message);
+            }
         }
     }
 }

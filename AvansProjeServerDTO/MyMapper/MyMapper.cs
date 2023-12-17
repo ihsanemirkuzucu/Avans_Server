@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using AvansProjeServer.Core.Entities;
+using AvansProjeServerDTO.Models.AdvanceDTOs;
 using AvansProjeServerDTO.Models.ProjectDTOs;
 using AvansProjeServerDTO.Models.TitleDTOs;
 using AvansProjeServerDTO.Models.UnitDTOs;
@@ -27,6 +28,8 @@ namespace AvansProjeServer.DTO.MyMapper
             CreateMap<ProjectDTO, Project>().ReverseMap();
             CreateMap<UnitDTO, Unit>().ReverseMap();
             CreateMap<TitleDTO, Title>().ReverseMap();
+            CreateMap<AdvanceAddDTO, Advance>().ReverseMap();
+            
 
             MapperConfig = new MapperConfiguration(config => { config.AddProfile(this); });
            
