@@ -19,9 +19,16 @@ namespace AvansProjeServer.BLL.Concrete.Advance
             _advanceDAL = advanceDal;
         }
 
-        public Task<GeneralReturnType<List<AdvanceApproveListDTO>>> GetAdvanceApproveListByWorkerIDAsync(int workerID)
+        public async Task<GeneralReturnType<List<AdvanceApproveListDTO>>> GetAdvanceApproveListByWorkerIDAsync(int workerID)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return new GeneralReturnType<List<AdvanceApproveListDTO>>(await _advanceDAL.GetAdvanceApproveListByWorkerIDAsync(workerID),  true, "Başarılı");
+            }
+            catch (Exception ex)
+            {
+                return new GeneralReturnType<List<AdvanceApproveListDTO>>(null, false, ex.Message);
+            }
         }
 
         public async Task<GeneralReturnType<List<WorkerAdvanceListDTO>>> GetWorkerAdvanceListAsync(int workerID)

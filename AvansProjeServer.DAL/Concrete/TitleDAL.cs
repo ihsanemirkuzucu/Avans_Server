@@ -32,7 +32,7 @@ namespace AvansProjeServer.DAL.Concrete
         {
             string query = "SELECT TitleID, TitleName FROM Title WHERE TitleID=@TITLEID";
             IDbConnection conn = _dbContext.CreateConnection();
-            return await conn.QueryFirstOrDefaultAsync(query, new { TITLEID = id });
+            return await conn.QueryFirstOrDefaultAsync<Title>(query, new { TITLEID = id });
         }
     }
 }

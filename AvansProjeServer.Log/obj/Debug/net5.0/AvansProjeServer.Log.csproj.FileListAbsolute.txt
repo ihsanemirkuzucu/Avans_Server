@@ -21,3 +21,4 @@ C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Log\obj\Debug\net5.0\Ava
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Log\obj\Debug\net5.0\AvansProjeServer.Log.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Log\obj\Debug\net5.0\ref\AvansProjeServer.Log.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Log\obj\Debug\net5.0\AvansProjeServer.Log.pdb
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Log\obj\Debug\net5.0\AvansProjeServer.Log.csproj.AssemblyReference.cache

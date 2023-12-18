@@ -21,3 +21,4 @@ C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Validation\obj\Debug\net
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Validation\obj\Debug\net5.0\AvansProjeServer.Validation.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Validation\obj\Debug\net5.0\ref\AvansProjeServer.Validation.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Validation\obj\Debug\net5.0\AvansProjeServer.Validation.pdb
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.Validation\obj\Debug\net5.0\AvansProjeServer.Validation.csproj.AssemblyReference.cache
