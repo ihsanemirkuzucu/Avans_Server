@@ -107,18 +107,19 @@ namespace AvansProjeServer.API.Controllers
                 Issuer = "İhsan",
                 Expires = DateTime.Now.AddMinutes(20),
                 Subject = new ClaimsIdentity(new Claim[] {
-                    new Claim(ClaimTypes.Email,dto.WorkerEmail),
-                    new Claim(ClaimTypes.Role,worker.Data.TitleID.ToString()),
-                }),
+                        new Claim(ClaimTypes.Email,dto.WorkerEmail),
+                        new Claim(ClaimTypes.Role,worker.Data.TitleID.ToString()),
+                    }),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_conf["apisecretkey"])), SecurityAlgorithms.HmacSha512Signature),
             };
 
             var tokenHandler = new JwtSecurityTokenHandler();
             var token = tokenHandler.CreateToken(desc);
             var workerToken = tokenHandler.WriteToken(token);
-
+           
             return Ok(new WorkerLoginDTO()
             {
+                WorkerID = worker.Data.WorkerID,
                 WorkerEmail = worker.Data.WorkerEmail,
                 WorkerName = worker.Data.WorkerName,
                 Password = "",
@@ -126,6 +127,10 @@ namespace AvansProjeServer.API.Controllers
                 TitleName = _titleBLL.GetTitleByIDAsync(worker.Data.TitleID).Result.Data.TitleName,
                 Token = workerToken
             });
+
+
+
+
         }
     }
 }

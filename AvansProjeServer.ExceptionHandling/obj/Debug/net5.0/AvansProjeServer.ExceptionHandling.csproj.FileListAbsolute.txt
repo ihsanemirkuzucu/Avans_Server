@@ -21,3 +21,4 @@ C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.ExceptionHandling\obj\De
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.ExceptionHandling\obj\Debug\net5.0\AvansProjeServer.ExceptionHandling.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.ExceptionHandling\obj\Debug\net5.0\ref\AvansProjeServer.ExceptionHandling.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.ExceptionHandling\obj\Debug\net5.0\AvansProjeServer.ExceptionHandling.pdb
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.ExceptionHandling\obj\Debug\net5.0\AvansProjeServer.ExceptionHandling.csproj.AssemblyReference.cache

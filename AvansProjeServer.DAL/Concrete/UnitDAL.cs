@@ -32,7 +32,7 @@ namespace AvansProjeServer.DAL.Concrete
         {
             string query = "SELECT UnitID, UnitName FROM Unit WHERE UnitID=@UNITID";
             IDbConnection conn = _dbContext.CreateConnection();
-            return await conn.QueryFirstOrDefaultAsync(query, new { UNITID = id });
+            return await conn.QueryFirstOrDefaultAsync<Unit>(query, new { UNITID = id });
         }
     }
 }
