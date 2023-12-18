@@ -16,8 +16,5 @@ namespace AvansProjeServer.Core.Entities
 
         public int? TitleID { get; set; }
 
-        public virtual Amount Amount { get; set; }
-
-        public virtual Title Title { get; set; }
     }
 }

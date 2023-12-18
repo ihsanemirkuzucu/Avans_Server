@@ -20,10 +20,12 @@ namespace AvansProjeServer.Core.Entities
 
         public decimal? ApprovedAmount { get; set; }
 
-        public virtual Advance Advance { get; set; }
+        public int NextApproverID { get; set; }
 
-        public virtual ApprovalStatus ApprovalStatus { get; set; }
+        public bool IsReview { get; set; }
 
-        public virtual Worker Worker { get; set; }
+        public DateTime? DeterminedAdvanceDate { get; set; }
+
+        public DateTime? PaymentDate { get; set; }
     }
 }

@@ -28,10 +28,9 @@ namespace AvansProjeServer.Core.Entities
 
         public byte[] PasswordHash { get; set; }
 
-        public Title Title { get; set; }
-
         public Unit Unit { get; set; }
-
+        public Title Title { get; set; }
         public Worker Worker2 { get; set; }
+
     }
 }

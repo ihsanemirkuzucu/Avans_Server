@@ -12,6 +12,8 @@ namespace AvansProjeServer.Core.Entities
 
         public string ApprovalName { get; set; }
 
+        public int NextApprovalStatusID { get; set; }
+
         public string NextApprovalName { get; set; }
     }
 }

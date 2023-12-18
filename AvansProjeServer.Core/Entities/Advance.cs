@@ -10,7 +10,7 @@ namespace AvansProjeServer.Core.Entities
     {
         public int AdvanceID { get; set; }
 
-        public int? TitleAmountApprovalRuleID { get; set; }
+        public int TitleAmountApprovalRuleID { get; set; }
 
         public decimal? AdvanceAmount { get; set; }
 
