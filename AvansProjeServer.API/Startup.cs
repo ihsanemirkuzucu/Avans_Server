@@ -9,6 +9,7 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using AvansProjeServer.BLL.Abstract.IAdvance;
 using AvansProjeServer.BLL.Abstract.IAuth;
@@ -16,6 +17,7 @@ using AvansProjeServer.BLL.Abstract.IProject;
 using AvansProjeServer.BLL.Abstract.ITitle;
 using AvansProjeServer.BLL.Abstract.IUnit;
 using AvansProjeServer.BLL.Abstract.IWorker;
+using AvansProjeServer.BLL.AdvanceApproveStragy;
 using AvansProjeServer.BLL.Concrete.Advance;
 using AvansProjeServer.BLL.Concrete.Auth;
 using AvansProjeServer.BLL.Concrete.Project;
@@ -33,6 +35,8 @@ using AvansProjeServer.DAL.Context;
 using AvansProjeServer.DTO.MyMapper;
 using AvansProjeServerDAL.Abstract.IAdvance;
 using AvansProjeServerDAL.Concrete;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 namespace AvansProjeServer.API
 {
@@ -63,15 +67,28 @@ namespace AvansProjeServer.API
             services.AddScoped<IUnitBLL, UnitBLL>();
             services.AddScoped<IUnitDAL, UnitDAL>();
 
-            services.AddScoped<IAuthBLL, AuthBLL>();
-            services.AddScoped<IAuthDAL, AuthDAL>();
-
             services.AddScoped<IProjectBLL, ProjectBLL>();
             services.AddScoped<IProjectDAL, ProjectDAL>();
 
+            services.AddScoped<ApproveFlow>();
 
             services.AddScoped<IAdvanceBLL, AdvanceBLL>();
             services.AddScoped<IAdvanceDAL, AdvanceDAL>();
+
+
+            var gizlibilgi = Encoding.ASCII.GetBytes(Configuration.GetSection("apisecretkey").Value);
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
+            {
+                opt.TokenValidationParameters = new TokenValidationParameters()
+                {
+                    IssuerSigningKey = new SymmetricSecurityKey(gizlibilgi),
+                    ValidateIssuer = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidateAudience = true,
+                    ValidAudience = "Fineksus",
+                    ValidIssuer = "Ýhsan"
+                };
+            });
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

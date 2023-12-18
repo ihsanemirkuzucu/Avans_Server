@@ -15,5 +15,11 @@ namespace AvansProjeServer.BLL.Abstract.IAdvance
         Task<GeneralReturnType<AdvanceDetailsDTO>> GetAdvanceDetailsAsync(int advanceID);
         Task<GeneralReturnType<AdvanceApproveDTO>> GetAdvanceApproveDetailsAsync(int advanceID);
         Task<GeneralReturnType<string>> AdvanceAddAsync(AdvanceAddDTO advanceAddDTO);
+
+        Task<GeneralReturnType<List<AdvancePaymentDTO>>> GetAdvancePaymentListAsync();
+        Task<GeneralReturnType<AdvanceApproveDTO>> GetAdvancePaymentDetailsAsync(int advanceID);
+        Task<GeneralReturnType<string>> ApproveAdvanceAsync(AdvanceApproveStatusUpdateDTO advanceApproveStatusUpdateDTO);
+        Task<GeneralReturnType<string>> RejectAdvanceAsync(AdvanceApproveStatusUpdateDTO advanceApproveStatusUpdateDTO);
+        Task<GeneralReturnType<string>> DetermineAdvanceDateAsync(AdvanceApproveStatusUpdateDTO advanceApproveStatusUpdateDTO);
     }
 }

@@ -74,6 +74,61 @@ namespace AvansProjeServer.API.Controllers
             }
             return result.Data;
         }
+
+        [HttpPost("~/api/approveadvance")]
+        public async Task<string> ApproveAdvance(AdvanceApproveStatusUpdateDTO advanceApproveStatusUpdateDTO)
+        {
+            var result = await _advanceBLL.ApproveAdvanceAsync(advanceApproveStatusUpdateDTO);
+            if (!result.Success)
+            {
+                return result.Data;
+            }
+            return result.Data;
+        }
+        
+        [HttpPost("~/api/rejectadvance")]
+        public async Task<string> RejectAdvance(AdvanceApproveStatusUpdateDTO advanceApproveStatusUpdateDTO)
+        {
+            var result = await _advanceBLL.RejectAdvanceAsync(advanceApproveStatusUpdateDTO);
+            if (!result.Success)
+            {
+                return result.Data;
+            }
+            return result.Data;
+        }
+
+        [HttpGet("~/api/advancepaymentdetails/{advanceID}")]
+        public async Task<AdvanceApproveDTO> GetAdvancePaymentDetails(int advanceID)
+        {
+            var result = await _advanceBLL.GetAdvancePaymentDetailsAsync(advanceID);
+            if (!result.Success)
+            {
+                return null;
+            }
+            return result.Data;
+        }
+
+        [HttpPost("~/api/determineadvancedate")]
+        public async Task<string> DetermineAdvanceDate(AdvanceApproveStatusUpdateDTO advanceApproveStatusUpdateDTO)
+        {
+            var result = await _advanceBLL.DetermineAdvanceDateAsync(advanceApproveStatusUpdateDTO);
+            if (!result.Success)
+            {
+                return result.Data;
+            }
+            return result.Data;
+        }
+
+        [HttpGet("~/api/advancepaymentist")]
+        public async Task<List<AdvancePaymentDTO>> GetAdvancePaymentList()
+        {
+            var result = await _advanceBLL.GetAdvancePaymentListAsync();
+            if (!result.Success)
+            {
+                return null;
+            }
+            return result.Data;
+        }
     }
 
 
