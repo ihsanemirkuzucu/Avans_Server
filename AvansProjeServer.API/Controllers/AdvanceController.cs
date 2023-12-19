@@ -6,9 +6,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using AvansProjeServer.BLL.Abstract.IAdvance;
 using AvansProjeServerDTO.Models.AdvanceDTOs;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AvansProjeServer.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class AdvanceController : ControllerBase
@@ -119,7 +121,7 @@ namespace AvansProjeServer.API.Controllers
             return result.Data;
         }
 
-        [HttpGet("~/api/advancepaymentist")]
+        [HttpGet("~/api/advancepaymentlist")]
         public async Task<List<AdvancePaymentDTO>> GetAdvancePaymentList()
         {
             var result = await _advanceBLL.GetAdvancePaymentListAsync();
