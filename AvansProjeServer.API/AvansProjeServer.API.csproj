@@ -19,6 +19,9 @@
   <ItemGroup>
     <ProjectReference Include="..\AvansProjeServer.BLL\AvansProjeServer.BLL.csproj" />
     <ProjectReference Include="..\AvansProjeServer.DAL\AvansProjeServerDAL.csproj" />
+    <ProjectReference Include="..\AvansProjeServer.ExceptionHandling\AvansProjeServer.ExceptionHandling.csproj" />
+    <ProjectReference Include="..\AvansProjeServer.Log\AvansProjeServer.Log.csproj" />
+    <ProjectReference Include="..\AvansProjeServer.Validation\AvansProjeServer.Validation.csproj" />
   </ItemGroup>
 
 </Project>

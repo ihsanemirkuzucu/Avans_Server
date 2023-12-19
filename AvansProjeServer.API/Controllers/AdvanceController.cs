@@ -10,7 +10,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace AvansProjeServer.API.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class AdvanceController : ControllerBase

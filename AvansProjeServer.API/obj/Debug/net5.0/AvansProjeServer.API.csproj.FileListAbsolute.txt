@@ -96,3 +96,12 @@ C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\Ava
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\ref\AvansProjeServer.API.dll
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\AvansProjeServer.API.pdb
 C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\obj\Debug\net5.0\AvansProjeServer.API.genruntimeconfig.cache
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\nlog.config
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\NLog.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServer.ExceptionHandling.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServer.Log.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServer.Validation.dll
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServer.ExceptionHandling.pdb
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServer.Log.pdb
+C:\Users\User\Desktop\AvansProjeServer\AvansProjeServer.API\bin\Debug\net5.0\AvansProjeServer.Validation.pdb

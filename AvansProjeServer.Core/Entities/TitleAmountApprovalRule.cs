@@ -14,7 +14,7 @@ namespace AvansProjeServer.Core.Entities
 
         public DateTime? Date { get; set; }
 
-        public int? TitleID { get; set; }
+        public int TitleID { get; set; }
 
     }
 }

@@ -20,7 +20,7 @@ namespace AvansProjeServer.Core.Entities
 
         public int? UnitID { get; set; }
 
-        public int? TitleID { get; set; }
+        public int TitleID { get; set; }
 
         public int? UpperWorkerID { get; set; }
 
@@ -28,9 +28,7 @@ namespace AvansProjeServer.Core.Entities
 
         public byte[] PasswordHash { get; set; }
 
-        public Unit Unit { get; set; }
-        public Title Title { get; set; }
-        public Worker Worker2 { get; set; }
+
 
     }
 }

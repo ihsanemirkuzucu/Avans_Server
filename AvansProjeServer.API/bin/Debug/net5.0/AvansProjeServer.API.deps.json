@@ -35,6 +35,9 @@
         "dependencies": {
           "AutoMapper": "10.0.0",
           "AvansProjeServer.BLL": "1.0.0",
+          "AvansProjeServer.ExceptionHandling": "1.0.0",
+          "AvansProjeServer.Log": "1.0.0",
+          "AvansProjeServer.Validation": "1.0.0",
           "AvansProjeServerDAL": "1.0.0",
           "Dapper": "2.1.24",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.17",
@@ -679,6 +682,33 @@
           "Microsoft.NETCore.Platforms": "3.1.0"
         }
       },
+      "NLog/4.7.11": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.11.13229"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {}
+        }
+      },
+      "NLog.Extensions.Logging/1.7.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging": "5.0.0",
+          "NLog": "4.7.11"
+        },
+        "runtime": {
+          "lib/net5.0/NLog.Extensions.Logging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.7.4.1610"
+          }
+        },
+        "compile": {
+          "lib/net5.0/NLog.Extensions.Logging.dll": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1311,6 +1341,46 @@
         },
         "compile": {
           "AvansProjeServer.Core.dll": {}
+        }
+      },
+      "AvansProjeServer.ExceptionHandling/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.0.0",
+          "Dapper": "2.1.24",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+        },
+        "runtime": {
+          "AvansProjeServer.ExceptionHandling.dll": {}
+        },
+        "compile": {
+          "AvansProjeServer.ExceptionHandling.dll": {}
+        }
+      },
+      "AvansProjeServer.Log/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.0.0",
+          "Dapper": "2.1.24",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "NLog.Extensions.Logging": "1.7.4"
+        },
+        "runtime": {
+          "AvansProjeServer.Log.dll": {}
+        },
+        "compile": {
+          "AvansProjeServer.Log.dll": {}
+        }
+      },
+      "AvansProjeServer.Validation/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.0.0",
+          "Dapper": "2.1.24",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+        },
+        "runtime": {
+          "AvansProjeServer.Validation.dll": {}
+        },
+        "compile": {
+          "AvansProjeServer.Validation.dll": {}
         }
       },
       "AvansProjeServerDAL/1.0.0": {
@@ -3260,6 +3330,20 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
+    "NLog/4.7.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A7EpoOjWesV5BPx1cOiBndazZq1VGdagIs6oK8ttcRDl5adCMtHiTqnsD5yYaOrMxOQeCjHBf/w3nKzCmhGbgw==",
+      "path": "nlog/4.7.11",
+      "hashPath": "nlog.4.7.11.nupkg.sha512"
+    },
+    "NLog.Extensions.Logging/1.7.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/dMxI/lBPNhKe9uONCQaZ3JYSHJh9/yez4Uqc6yIo2hIGaoi8sbQg7WQqW5/1WAIquhrG/SeCEZUTGMiRSQAHw==",
+      "path": "nlog.extensions.logging/1.7.4",
+      "hashPath": "nlog.extensions.logging.1.7.4.nupkg.sha512"
+    },
     "runtime.native.System/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -3728,6 +3812,21 @@
       "sha512": ""
     },
     "AvansProjeServer.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AvansProjeServer.ExceptionHandling/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AvansProjeServer.Log/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AvansProjeServer.Validation/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
