@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AvansProjeServer.API.ExceptionHandling.ExceptionMiddlewareExtensions;
 using AvansProjeServer.BLL.Abstract.IAdvance;
 using AvansProjeServer.BLL.Abstract.IAuth;
 using AvansProjeServer.BLL.Abstract.IProject;
@@ -33,10 +34,12 @@ using AvansProjeServer.DAL.Abstract.IWorker;
 using AvansProjeServer.DAL.Concrete;
 using AvansProjeServer.DAL.Context;
 using AvansProjeServer.DTO.MyMapper;
+using AvansProjeServer.Log.Methods;
 using AvansProjeServerDAL.Abstract.IAdvance;
 using AvansProjeServerDAL.Concrete;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using NLog;
 
 namespace AvansProjeServer.API
 {
@@ -86,7 +89,7 @@ namespace AvansProjeServer.API
                     ValidateIssuerSigningKey = true,
                     ValidateAudience = true,
                     ValidAudience = "Fineksus",
-                    ValidIssuer = "�hsan"
+                    ValidIssuer = "İhsan"
                 };
             });
 
@@ -95,11 +98,17 @@ namespace AvansProjeServer.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AvansProjeServer.API", Version = "v1" });
             });
+
+            
+
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+           
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -110,6 +119,8 @@ namespace AvansProjeServer.API
             app.UseRouting();
 
             app.UseAuthorization();
+
+            //app.ConfigureExceptionHandler(logger);
 
             app.UseEndpoints(endpoints =>
             {

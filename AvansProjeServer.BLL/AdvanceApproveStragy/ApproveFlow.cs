@@ -25,7 +25,7 @@ namespace AvansProjeServer.BLL.AdvanceApproveStragy
         public async Task<AdvanceApproveStatus> ApproveAdvance(AdvanceApproveStatusUpdateDTO dto)
         {
 
-            int? currentTitleID =  _workerDAL.GetWorkerByIdAsync(dto.ApproverOrRejecterID).Result.TitleID;
+            int currentTitleID =  _workerDAL.GetWorkerByIdAsync(dto.ApproverOrRejecterID).Result.TitleID;
             var advance = await _advanceDAL.GetAdvanceIDAsync(dto.AdvanceID);
             var taar = await _advanceDAL.GetTitleAmountApprovalRuleByIDAsync(advance.TitleAmountApprovalRuleID);
             if (taar.TitleID == currentTitleID)

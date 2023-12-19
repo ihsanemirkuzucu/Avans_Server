@@ -25,67 +25,75 @@ namespace AvansProjeServer.DAL.Concrete
 
         public async Task<List<Worker>> GetAllWorkersAsync()
         {
-            string query = @"SELECT W.WorkerID,W.WorkerName,W.WorkerEmail, W.WorkerPhonenumber, W.UpperWorkerID, W.PasswordSalt, W.PasswordHash, T.TitleID, T.TitleName, U.UnitID, U.UnitName 
-                    FROM Worker W
-                    INNER JOIN Title T ON W.TitleID=T.TitleID
-                    INNER JOIN Unit U ON W.UnitID=U.UnitID";
-            using IDbConnection connection = _dbContext.CreateConnection();
-            var datas = await connection.QueryAsync<Worker, Unit, Title, Worker>(query, (worker, unit, title) =>
-                {
-                    worker.Unit = unit;
-                    worker.Title = title;
-                    return worker;
-                },
-                splitOn: "TitleID, UnitID");
-            return datas.ToList();
+            //string query = @"SELECT W.WorkerID,W.WorkerName,W.WorkerEmail, W.WorkerPhonenumber, W.UpperWorkerID, W.PasswordSalt, W.PasswordHash, T.TitleID, T.TitleName, U.UnitID, U.UnitName 
+            //        FROM Worker W
+            //        INNER JOIN Title T ON W.TitleID=T.TitleID
+            //        INNER JOIN Unit U ON W.UnitID=U.UnitID";
+            //using IDbConnection connection = _dbContext.CreateConnection();
+            //var datas = await connection.QueryAsync<Worker, Unit, Title, Worker>(query, (worker, unit, title) =>
+            //    {
+            //        worker.Unit = unit;
+            //        worker.Title = title;
+            //        return worker;
+            //    },
+            //    splitOn: "TitleID, UnitID");
+            //return datas.ToList();
+            return null;
         }
 
         public async Task<Worker> GetWorkerByIdAsync(int id)
         {
-            string query = @"SELECT W.WorkerID,W.WorkerName,W.WorkerEmail, W.WorkerPhonenumber, W.UpperWorkerID, W.PasswordSalt, W.PasswordHash, U.UnitID,U.UnitName, T.TitleID,T.TitleName                             
-                            FROM Worker W
-                            INNER JOIN Title T ON W.TitleID=T.TitleID
-                            INNER JOIN Unit U ON W.UnitID=U.UnitID
-                            WHERE W.WorkerID=@WORKERID";
-            using IDbConnection connection = _dbContext.CreateConnection();
-            var parameters = new DynamicParameters();
-            parameters.Add("WORKERID", id, DbType.Int16);
-            IEnumerable<Worker> datas = await connection.QueryAsync<Worker, Unit, Title, Worker>(query, (worker, unit, title) =>
-               {
-                   worker.UnitID = unit.UnitID;
-                   worker.TitleID = title.TitleID;
-                   worker.Unit = unit;
-                   worker.Title = title;
-                   return worker;
-               },
-               splitOn: "UnitID, TitleID",
-               param: parameters);
-            var dd = datas.SingleOrDefault(x => x.WorkerID == id);
-            return dd;
+            //string query = @"SELECT W.WorkerID,W.WorkerName,W.WorkerEmail, W.WorkerPhonenumber, W.UpperWorkerID, W.PasswordSalt, W.PasswordHash, U.UnitID,U.UnitName, T.TitleID,T.TitleName                             
+            //                FROM Worker W
+            //                INNER JOIN Title T ON W.TitleID=T.TitleID
+            //                INNER JOIN Unit U ON W.UnitID=U.UnitID
+            //                WHERE W.WorkerID=@WORKERID";
+            //using IDbConnection connection = _dbContext.CreateConnection();
+            //var parameters = new DynamicParameters();
+            //parameters.Add("WORKERID", id, DbType.Int16);
+            //IEnumerable<Worker> datas = await connection.QueryAsync<Worker, Unit, Title, Worker>(query, (worker, unit, title) =>
+            //   {
+            //       //worker.UnitID = unit.UnitID;
+            //       //worker.TitleID = title.TitleID;
+            //       //worker.Unit = unit;
+            //       //worker.Title = title;
+            //       //return worker;
+            //   },
+            //   splitOn: "UnitID, TitleID",
+            //   param: parameters,
+            // commandType: CommandType.Text);
+            // return datas.SingleOrDefault(x => x.WorkerID == id);
+            var query = "SELECT * FROM Worker WHERE WorkerID = @WorkerID";
+            var conn = _dbContext.CreateConnection();
+            return await conn.QueryFirstOrDefaultAsync<Worker>(query, new
+            {
+                WorkerID = id
+            });
 
         }
 
         public async Task<Worker> GetWorkerByMailAsync(string email)
         {
 
-            string query = @"SELECT W.WorkerID,W.WorkerName,W.WorkerEmail, W.WorkerPhonenumber, T.TitleID,T.TitleName, U.UnitID,U.UnitName, 
-                            W.UpperWorkerID, W.PasswordSalt, W.PasswordHash
-                            FROM Worker W
-                            INNER JOIN Title T ON W.TitleID=T.TitleID
-                            INNER JOIN Unit U ON W.UnitID=U.UnitID
-                            WHERE W.WorkerEmail=@WorkerEmail";
-            using IDbConnection connection = _dbContext.CreateConnection();
-            var parameters = new DynamicParameters();
-            parameters.Add("WorkerEmail", email, DbType.String);
-            IEnumerable<Worker> datas = await connection.QueryAsync<Worker, Unit, Title, Worker>(query, (worker, unit, title) =>
-                {
-                    worker.Unit = unit;
-                    worker.Title = title;
-                    return worker;
-                },
-                splitOn: "UnitID, TitleID",
-                param: parameters);
-            return datas.FirstOrDefault();
+            //string query = @"SELECT W.WorkerID,W.WorkerName,W.WorkerEmail, W.WorkerPhonenumber, T.TitleID,T.TitleName, U.UnitID,U.UnitName, 
+            //                W.UpperWorkerID, W.PasswordSalt, W.PasswordHash
+            //                FROM Worker W
+            //                INNER JOIN Title T ON W.TitleID=T.TitleID
+            //                INNER JOIN Unit U ON W.UnitID=U.UnitID
+            //                WHERE W.WorkerEmail=@WorkerEmail";
+            //using IDbConnection connection = _dbContext.CreateConnection();
+            //var parameters = new DynamicParameters();
+            //parameters.Add("WorkerEmail", email, DbType.String);
+            //IEnumerable<Worker> datas = await connection.QueryAsync<Worker, Unit, Title, Worker>(query, (worker, unit, title) =>
+            //    {
+            //        worker.Unit = unit;
+            //        worker.Title = title;
+            //        return worker;
+            //    },
+            //    splitOn: "UnitID, TitleID",
+            //    param: parameters);
+            //return datas.FirstOrDefault();
+            return null;
         }
 
         public async Task<Worker> RegisterAsync(WorkerRegisterDTO workerRegisterDTO)

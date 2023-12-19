@@ -10,7 +10,7 @@ namespace AvansProjeServer.Core.Entities
     {
         public int ApproveStatusID { get; set; }
 
-        public int? AdvanceID { get; set; }
+        public int AdvanceID { get; set; }
 
         public int? ApproverOrRejecterID { get; set; }
 
