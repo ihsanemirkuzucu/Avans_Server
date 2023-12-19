@@ -24,7 +24,7 @@ namespace AvansProjeServerDAL.Concrete
         public async Task<List<AdvanceApproveListDTO>> GetAdvanceApproveListByWorkerIDAsync(int workerID)
         {
             string query =
-                @"SELECT TAAR.ID, A.AdvanceID, W.WorkerName, T.TitleName, U.UnitName, AST.ApprovalName, A.RequestDate, A.DesiredDate, A.AdvanceAmount, P.ProjectName
+                @"SELECT TAAR.ID, AAS.ApprovalStatusID A.AdvanceID, W.WorkerName, T.TitleName, U.UnitName, AST.ApprovalName, A.RequestDate, A.DesiredDate, A.AdvanceAmount, P.ProjectName
                 FROM Advance A
                 INNER JOIN Worker W ON W.WorkerID = A.WorkerID
                 INNER JOIN Unit U ON U.UnitID = W.UnitID 

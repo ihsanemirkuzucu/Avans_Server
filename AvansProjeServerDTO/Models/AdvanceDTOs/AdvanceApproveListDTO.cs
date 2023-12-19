@@ -17,5 +17,6 @@ namespace AvansProjeServerDTO.Models.AdvanceDTOs
         public DateTime DesiredDate { get; set; }
         public decimal AdvanceAmount { get; set; }
         public string ProjectName { get; set; }
+        public int ApprovalStatusID { get; set; }
     }
 }
